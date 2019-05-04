@@ -5,7 +5,7 @@
   (some (partial = val) coll))
 
 ;my solution
-(defn array-diff2-mine [a b]
+(defn array-diff-mine [a b]
   (vec (filter (fn [val] (not (has val b))) a)))
 
 ;idiomatic
